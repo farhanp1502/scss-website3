@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+.section4 {
+  width: 100%;
+  height: auto;
+  background-color: #292870;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 60px 80px;
+  .section4-head {
+    color: #efab47;
+    font-size: 2rem;
+    font-family: Oswald, sans-serif;
+    // font-family: "Roboto", sans-serif;
+  }
+  .section4-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .section4-item {
+      width: 200px;
+      .section4-svg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        background-color: #efab47;
+        border-radius: 50%;
+        img {
+          width: 25px;
+          height: 25px;
+        }
+      }
+      #p41 {
+        font-family: "Roboto", sans-serif;
+        font-size: 1rem;
+        color: #efab47;
+      }
+      #p42 {
+        font-family: 'Open Sans',sans-serif;
+        color: #dbdada;
+        font-size: 0.75rem;
+      }
+    }
+  }
+  .section4-btn {
+    width: 100%;
+    button {
+      padding: 10px 25px;
+      color: #292870;
+      background-color: #efab47;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 20px;
+      &:hover {
+        background-color: #fff;
+      }
+    }
+  }
+}
+@media screen  and (max-width: 700px){
+  .section4{
+    padding: 20px 30px;
+  }
+}

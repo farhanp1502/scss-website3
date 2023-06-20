@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+.section3 {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  background-image: url("https://images01.nicepage.com/c461c07a441a5d220e8feb1a/14a57690130f5b6f94c71d9b/dffffffffffffffff-min.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  .section3-1 {
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    padding: 0 120px;
+    #p31 {
+      font-size: 4rem;
+      text-transform: uppercase;
+      font-weight: bolder;
+      color: #fff;
+      line-height: 25px;
+      font-family: Oswald, sans-serif;
+      text-shadow: 1px 1px 11px rgb(0, 0, 0, 0.4);
+      letter-spacing: 2px;
+      em {
+        font-size: 1.5rem;
+        letter-spacing: 6.7px;
+        font-style: normal;
+      }
+    }
+    #p32 {
+      letter-spacing: 5px;
+      color: #fff;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+      a {
+        color: #fff;
+      }
+    }
+    #p33 {
+      font-size: 1.5rem;
+      color: #fff;
+      text-shadow: 1px 1px 11px rgb(0, 0, 0, 0.4);
+      font-family: Oswald, sans-serif;
+    }
+    #p34 {
+      font-size: 0.9rem;
+      color: #fff;
+      font-weight: lighter;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+  }
+  .section3-2 {
+    display: flex;
+    // justify-content: center;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    padding-top: 50px;
+    // position: relative;
+    // object-position: right;
+    img {
+      width: 80%;
+      height: auto;
+      bottom: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .section3 {
+    flex-direction: column;
+    .section3-1 {
+      width: 80%;
+
+      padding: 0;
+      padding-top: 40px;
+      padding-left: 40px;
+    }
+    .section3-2 {
+      width: 100%;
+      padding-top: 0;
+    }
+  }
+}
